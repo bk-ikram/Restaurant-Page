@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8f2c1f;
+}
+header{
+    background-color: #f9d77e;
+    color: #8f2c1f;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+#container {
+    margin: auto;
+    width: 80%;                  /* take full width */
+}
+
+button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #8f2c1f;
+    border: none;
+    background-color: transparent;
+}
+.border{
+    margin: 2rem 0;
+    border: 20px solid transparent;
+    border-image-source: url("./assets/border-image.png");
+    border-image-slice:
+    381 395 386 395 fill;
+    border-image-width: 80px;
+    border-image-outset:
+    0px 0px 0px 0px;
+    border-image-repeat:
+    stretch stretch;
+    background-color: #f9d77e;
+
+}
+
+#content{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-item{
+    border: double #8f2c1f 20px;
+    padding: 1rem;
+    margin: 20px;
+    background-color: #f9d77e;
+    width: 60%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.title img{
+    height: 80px;
+}
+
+.selected{
+    background-image: url("./assets/cherry-blossom2.png"),
+        linear-gradient(transparent, white, transparent);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+h1{
+    color: #8f2c1f;
+}
+
+h2{
+    color: #8f2c1f;
+    font-size: 18px;
+
+}
+
+h3{
+    color: #8f2c1f;
+    padding-bottom: 10px;
+}
+
+h4{
+    color: black;
+    text-align: center;
+}
+h5{
+    color: black;
+    font-weight: bold;
+}
+p{
+    padding: 2px;
+    color: purple;
+}
